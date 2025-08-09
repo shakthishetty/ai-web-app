@@ -1,8 +1,7 @@
-import AuthForm from "@/components/AuthForm"
 
 const layout = ({children}: {children: React.ReactNode}) => {
   return (
-    <AuthForm  type="signUp"/>
+         <div className="flex justify-center items-center h-screen">{children}</div>
   )
 }
 

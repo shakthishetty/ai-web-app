@@ -135,6 +135,13 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+body {
+  background-image: url('/bgImag.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 
 @layer base {
   * {
@@ -166,6 +173,10 @@
 
    .auth-layout {
     @apply flex items-center justify-center mx-auto max-w-7xl min-h-screen max-sm:px-4 max-sm:py-8;
+  }
+
+    .root-layout {
+    @apply flex mx-auto max-w-7xl flex-col gap-12 my-12 px-16 max-sm:px-4 max-sm:my-8;
   }
 
 }

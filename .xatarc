@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://shakthi-s-workspace-547a4a.us-east-1.xata.sh/db/shakthi_snapcast",
+  "codegen": {
+    "output": "/xata.ts"
+  }
+}

@@ -34,3 +34,35 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+# NPM INSTALLATION XATA CLI
+npm install -g @xata.io/cli
+# XATA CLI LOGIN
+xata auth login
+
+# XATA CLI INIT
+xata init 
+
+# if u doest not get src folder then run this command
+xata init --force
+
+# in src/xata.ts file
+# replace the content with this code
+# it should be your xata database url and api key
+const defaultOptions = {
+  databaseURL:
+    "https://your-database-name.xata.sh/db/your-database-name",
+     apiKey: process.env.XATA_API_KEY,
+     branch: "main",
+};
+
+
+# XATA ORM 
+npm i drizzle-orm
+
+# DRIZZLE Migrations
+npm i -D drizzle-kit
+
+# DRIZZLE Postgres
+npm i pg
